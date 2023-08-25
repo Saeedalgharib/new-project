@@ -1,29 +1,80 @@
-# new-project
 
+<!-- This is the markdown template for the final project of the Building AI course, 
+created by Reaktor Innovations and University of Helsinki. 
+Copy the template, paste it to your GitHub README and edit! -->
 
+# Project Title
 
-
-Next Meal Recommendation
 Final project for the Building AI course
 
-Summary
-Picking among favorite food is hard and balance the nutrients value of everyday meal is even more difficult. So this AI project would be about taking the preference of the users and nutrient value of the food and suggest a healthy meal.
+## Summary
 
-Background
-Food is one of the one of the most important thing in people life. It is the source of energy, nutrients for any living creature to sustain and growth. But people only eats food that suits their preference and it has to be easy to obtain since spending 10 hours to cook something is not suitable for everyone. But tasty and simple to obtain may not be a good choice when it comes to balance diet, so most people will neglect one or two categories (nutrients probably will be the least importance) when it comes to food. By using AI to understand the preference of the users and generate a list of dishes is probably possible and filter it again based on the nutrients value will give a healthy and tasty option for every meal.
+Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
 
-How is it used?
-It probably is a solution for everyone, especially someone with limited time to consider and cooking their own meal. Users can use the suggestion as ease or change it to suit their preference even more, and if cooking is a problem, ordering the suggestion food is also a pretty good idea. Users must take into account that AI is not perfect and the suggestion may not be perfectly balance in nutrients or suit your preference.
 
-Data sources and AI methods
-Data source: The data will be input by users when starting to use the service. It is also possible to import such data from food delivery service used by the user. The information about the nutrients value of each dish can be obtain through service like ReciPal API or Edamam Nutrition Analysis API. The recommendation balance diet can be obtain through Edamam Diet Recommendations API. AI Methods: since nutrients value and taste can be categories and turn to numerical value, Linear regression and Logistics regression could be enough but using neural network may give even better result.
+## Background
 
-Challenges
-Each dish has a unique taste, the preference of users may result in incorrect suggestion since it will taste differently when cook by different person. Another challenge is that food with necessary nutrients may not fit in the user's preference at all, for example a kid only likes fastfood and hate vegetable, it would be impossible to suggest a balance diet in this case.
+Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
 
-What next?
-Probably someone with enough time to plan the whole thing, build a model, and test it out.
+This is how you make a list, if you need one:
+* problem 1
+* problem 2
+* etc.
 
-Acknowledgments
-Thanks the Elements of AI Team for the knowledge and reason to think about this project :)
-The idea mentions some API service which probably have no problem with copyright :)
+
+## How is it used?
+
+Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+
+Images will make your README look nice!
+Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
+![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+
+If you need to resize images, you have to use an HTML tag, like this:
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+
+This is how you create code examples:
+```
+def main():
+   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
+   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
+   fishers = [1891, 2652, 3800, 11611, 1757]
+
+   totPop = sum(pop)
+   totFish = sum(fishers)
+
+   # write your solution here
+
+   for i in range(len(countries)):
+      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+
+main()
+```
+
+
+## Data sources and AI methods
+Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
+If you need to use links, here's an example:
+[Twitter API](https://developer.twitter.com/en/docs)
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+## Challenges
+
+What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+
+## What next?
+
+How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+
+
+## Acknowledgments
+
+* list here the sources of inspiration 
+* do not use code, images, data etc. from others without permission
+* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
+  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+* etc
