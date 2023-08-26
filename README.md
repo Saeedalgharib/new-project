@@ -4,7 +4,9 @@ created by Reaktor Innovations and University of Helsinki.
 Copy the template, paste it to your GitHub README and edit! -->
 
 # Project Title
-Final project for the Building AI course
+
+Final project for the Building AI course.
+
 ## Summary
 
 Picking among favorite food is hard and balance the nutrients value of everyday meal is even more difficult. So this AI project would be about taking the preference of the users and nutrient value of the food and suggest a healthy meal.
